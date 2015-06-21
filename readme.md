@@ -17,6 +17,7 @@ npm install paratask-promises
 ```
 or by getting it from [this repo](https://github.com/IvanDimanov/paratask-promises).
 
+
 ## Dependencies
 Paratask uses only native Node/io.js modules that do not need additional installation: `fs` and `child_process`.
 
