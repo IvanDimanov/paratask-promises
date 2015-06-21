@@ -1,0 +1,42 @@
+{
+  "name": "paratask-promises",
+  "version": "3.1.0",
+  "author": {
+    "name": "Ivan Dimanov",
+    "email": "mail@idimanov.com"
+  },
+  "description": "Paratask is a tool that will execute your Back-end JavaScript code in parallel using the full potential of multi-process programming. In contrast to asynchronous task management, Paratask will create a child Node/io.js process.",
+  "contributors": [
+    {
+      "name": "Ivan Dimanov",
+      "email": "mail@idimanov.com"
+    }
+  ],
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "grunt nodeunit"
+  },
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">= 0.8.0",
+    "iojs": ">= 1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvanDimanov/paratask.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanDimanov/paratask/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "parallel",
+    "process",
+    "control-flow"
+  ],
+  "readmeFilename": "readme.md",
+  "license": "MIT"
+}
