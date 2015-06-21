@@ -1,4 +1,4 @@
-# Paratask - Node/io.js Parallel Process Manager
+# Paratask - Node Parallel Process Manager
 [![Build Status](https://secure.travis-ci.org/IvanDimanov/paratask-promises.png?branch=master)](http://travis-ci.org/IvanDimanov/paratask-promises)
 [![NPM version](https://badge.fury.io/js/paratask-promises.png)](http://badge.fury.io/js/paratask-promises)
 
