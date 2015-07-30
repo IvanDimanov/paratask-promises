@@ -22,6 +22,23 @@ or by getting it from [this repo](https://github.com/IvanDimanov/paratask-promis
 Paratask uses only native Node/io.js modules that do not need additional installation: `fs` and `child_process`.
 
 
+## Custom Promise lib
+You like to use your own Promise constructor or 3rd party alternative?
+No problem, just type:
+```javascript
+var paratask = require('paratask-promises');
+
+paratask.usePromise( require('bluebird').Promise );
+// or
+paratask.usePromise( require('q').Promise );
+// or
+paratask.usePromise( require('when').Promise );
+// or
+paratask.usePromise( require('rsvp').Promise );
+```
+Thanks to [machinewu](https://github.com/machinewu) for the great suggestion.
+
+
 ### Example: Parallel calculation
 Both `task_1` and `task_2` will fork a new Node/io.js process and will run __concurrently__.
 When both call `resolve()`, the final results will be printed in the console.
