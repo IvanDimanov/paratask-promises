@@ -60,7 +60,7 @@ module.exports = {
 
         while (--count) factorial *= count;
 
-        resolve(null, factorial);
+        resolve(factorial);
       }
     };
 

@@ -95,7 +95,7 @@ var task_1 = {
 
     while (--count) factorial *= count;
 
-    resolve(null, factorial);
+    resolve(factorial);
   }
 };
 
